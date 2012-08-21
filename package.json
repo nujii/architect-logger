@@ -1,0 +1,24 @@
+{
+  "name": "architect-logger",
+  "description": "Winston plugin for Architect",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "Nujii Labs",
+    "email": "developer@nujii.com"
+  },
+  "contributors": [ 
+    { "name": "Cameron Bytheway", "email": "cameron@nujii.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nujii/architect-logger.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "winston": "~0.6.2"
+  },
+  "plugin": {
+    "provides": ["logger"]
+  }
+}

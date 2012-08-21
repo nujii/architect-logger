@@ -29,9 +29,12 @@ Let's use that puppy in our plugin
 ```js
 module.exports = function (options, imports, register) {
 
-  var app = imports.express;
+  var log = imports.logger;
 
-  // Do stuf here. It's just an express server.
+  logger.info("Hello!");
+  logger.warn("Uh oh! There's an error coming...");
+  logger.error("We're going down");
+
 };
 ```
 

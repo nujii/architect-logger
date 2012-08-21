@@ -7,16 +7,16 @@ as a logging backend
 
 ```json
 {
-  packagePath: "./node_modules/architect-logger",
-  exitOnError: false,
-  transports: {
-    'console': {
-      colorize: true,
-      level: 'verbose'
+  "packagePath": "./node_modules/architect-logger",
+  "exitOnError": false,
+  "transports": {
+    "console": {
+      "colorize": true,
+      "level": "verbose"
     }
-    'file': {
-      filename: './logs/errors.log',
-      level: 'warn'
+    "file": {
+      "filename": "./logs/errors.log",
+      "level": "warn"
     }
   }
 }

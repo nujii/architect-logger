@@ -13,7 +13,7 @@ as a logging backend
     "console": {
       "colorize": true,
       "level": "verbose"
-    }
+    },
     "file": {
       "filename": "./logs/errors.log",
       "level": "warn"
